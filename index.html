@@ -7,13 +7,23 @@
 </head>
 <body>
     <h1>CompARe App</h1>
-    <p>Click on the images below to view the 3D model in AR. First IOS and second button on Android</p>
+    <p>IOS</p>
     <a rel="ar" href="ferrari_f40.usdz">
         <img src="ar.png" alt="Github hosted Quick Look" width="100">
     </a>
-    <a rel="ar" href="ferrari_f40.glb">
+    <a rel="ar" href="ftest.usdz">
         <img src="ar.png" alt="Google hosted Model Viewer" width="100">
     </a>
+    <p>Android</p>
+    <a rel="ar" href="intent://arvr.google.com/scene-viewer/1.0?file=ferrari_f40.glb">
+        <img src="ar.png" alt="Github hosted Quick Look" width="100">
+    </a>
+    <a rel="ar" href="intent://arvr.google.com/scene-viewer/1.0?file=f40test.glb#Intent;scheme=https;package=com.google.android.googlequicksearchbox;action=android.intent.action.VIEW;S.browser_fallback_url=https://developers.google.com/ar;end;">
+        <img src="ar.png" alt="Google hosted Model Viewer" width="100">
+    </a>
+    <p>Web Example</p>
+    <a href="intent://arvr.google.com/scene-viewer/1.0?file=https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Models/master/2.0/Avocado/glTF/Avocado.gltf#Intent;scheme=https;package=com.google.android.googlequicksearchbox;action=android.intent.action.VIEW;S.browser_fallback_url=https://developers.google.com/ar;end;">Avocado</a>
+
 </body>
 </html>
 
