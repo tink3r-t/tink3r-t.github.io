@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quick Look 3D Demo</title>
+</head>
+<body>
+    <h1>Hello, World! View Your 3D Model</h1>
+    <a rel="ar" href="your-3d-file.usdz">
+        <img src="ar-icon.png" alt="View in AR" width="100">
+    </a>
+</body>
+</html>
+
